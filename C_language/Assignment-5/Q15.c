@@ -1,3 +1,11 @@
+// 15. Full Pyramid — Alphabets (centered)
+// Input example: `n = 5`
+//         A
+//       A B C
+//     A B C D E
+//   A B C D E F G
+// A B C D E F G H I
+
 #include <stdio.h>
 
 int main()

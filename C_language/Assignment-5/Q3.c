@@ -1,3 +1,7 @@
+// 3. Single Row of Alphabets
+// Input example: n = 5
+
+// A B C D E
 
 #include <stdio.h>
 

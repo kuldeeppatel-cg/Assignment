@@ -1,3 +1,10 @@
+// 5. Square of Numbers (row-wise)
+// Input example: n = 4
+
+// 1 2 3 4
+// 1 2 3 4
+// 1 2 3 4
+// 1 2 3 4
 
 #include <stdio.h>
 

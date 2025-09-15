@@ -1,3 +1,11 @@
+// 13. Full Pyramid — Stars (centered)
+// Input example: `n = 5`
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+
 #include <stdio.h>
 
 int main()

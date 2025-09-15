@@ -1,4 +1,7 @@
+// 1. Single Row of Stars
+// Input example: n = 5
 
+// *****
 #include <stdio.h>
 
 int main()

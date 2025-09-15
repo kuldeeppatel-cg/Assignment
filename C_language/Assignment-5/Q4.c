@@ -1,3 +1,10 @@
+// 4. Square of Stars
+// Input example: n = 4
+
+// ****
+// ****
+// ****
+// ****
 
 #include <stdio.h>
 

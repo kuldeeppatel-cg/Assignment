@@ -1,3 +1,11 @@
+// 7. Right-angled Triangle — Stars (increasing)
+// Input example: n = 5
+
+// *
+// **
+// ***
+// ****
+// *****
 
 #include <stdio.h>
 

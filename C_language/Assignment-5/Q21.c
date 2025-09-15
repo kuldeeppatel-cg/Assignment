@@ -1,3 +1,12 @@
+// 21. Right-Aligned Inverted Triangle (Stars)
+// Input: n = 5
+
+// *****
+//  ****
+//   ***
+//    **
+//     *
+//     * 
 
 #include <stdio.h>
 

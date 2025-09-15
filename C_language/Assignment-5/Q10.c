@@ -1,3 +1,11 @@
+// 10. Right-Aligned Triangle — Stars
+// Input example: `n = 5`
+//     *
+//    **
+//   ***
+//  ****
+// *****
+
 #include <stdio.h>
 
 int main()
