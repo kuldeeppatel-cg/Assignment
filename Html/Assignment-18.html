@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Media Library</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+    img{
+      height: 200px;
+      width: 400px;
+    }
+    nav {
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: blue;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    figure {
+      display: inline-block;
+      margin: 10px;
+      text-align: center;
+    }
+    video, audio {
+      display: block;
+      margin-bottom: 10px;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      margin-bottom: 20px;
+    }
+    .back-to-top {
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#images">Images</a>
+    <a href="#audio">Audio</a>
+    <a href="#video">Video</a>
+    <a href="#embeds">Embeds</a>
+  </nav>
+
+  <!-- Title and Introduction -->
+  <h1>Media Library Collection</h1>
+  <p>This page contains my favorite images, songs, videos, and online embeds.</p>
+
+  <!-- Image Gallery -->
+  <section id="images">
+    <h2>Image Gallery</h2>
+
+    <figure>
+      <img src="https://res.cloudinary.com/dw4j19xmz/image/upload/v1758197923/download_wuek5y.webp" alt="Snowy mountain" title="Snowy Mountain">
+      <figcaption>Snowy Mountain</figcaption>
+    </figure>
+
+    <figure>
+      <img src="https://res.cloudinary.com/dw4j19xmz/image/upload/v1758197827/download_pntprw.webp" alt="Sunny beach" title="Sunny Beach">
+      <figcaption>Sunny Beach</figcaption>
+    </figure>
+
+    <figure>
+      <img src="https://res.cloudinary.com/dw4j19xmz/image/upload/v1758197885/OIP_gczks6.jpg" alt="Green forest" title="Green Forest">
+      <figcaption>Green Forest</figcaption>
+    </figure>
+
+    <figure>
+      <img src="https://res.cloudinary.com/dw4j19xmz/image/upload/v1758198045/download_aiw5dy.webp" alt="Modern city skyline" title="City Skyline">
+      <figcaption>City Skyline</figcaption>
+    </figure>
+
+    <figure>
+      <img src="https://res.cloudinary.com/dw4j19xmz/image/upload/v1758197959/download_pziyy3.webp" alt="Hot desert" title="Hot Desert">
+      <figcaption>Hot Desert</figcaption>
+    </figure>
+
+    <figure>
+      <img src="https://res.cloudinary.com/dw4j19xmz/image/upload/v1758198086/OIP_fxjl22.jpg" alt="Beautiful waterfall" title="Waterfall">
+      <figcaption>Beautiful Waterfall</figcaption>
+    </figure>
+  </section>
+
+ 
+  <section id="audio">
+    <h2>Audio Collection</h2>
+
+    <audio controls autoplay>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>This audio plays automatically and features a relaxing instrumental track.</p>
+
+    <audio controls loop>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>This audio loops continuously and is ideal for background ambiance.</p>
+
+    <audio controls >
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>This track is a soothing melody to help you concentrate.</p>
+  </section>
+
+  
+  <section id="video">
+    <h2>Video Collection</h2>
+
+    <video width="480" height="270" controls poster="https://via.placeholder.com/480x270?text=Nature+Video">
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      <track src="subtitles.vtt" kind="subtitles" srclang="en" label="English Subtitles">
+      Your browser does not support the video tag.
+    </video>
+    <p>This is a sample nature video with subtitles included for accessibility.</p>
+
+    <video width="480" height="270" controls poster="https://via.placeholder.com/480x270?text=City+Video">
+      <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p>This video captures the bustling life in a modern city.</p>
+  </section>
+
+  <section id="embeds">
+    <h2>External Media Embeds</h2>
+
+    <h3>YouTube Video</h3>
+    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube Video"></iframe>
+
+    <h3>Google Map Location (CodingGita Campus Example)</h3>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.545844965361!2d90.37964571429797!3d23.763729394163245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c77209f7c491%3A0x660e48d0b2034c16!2sCodingGita!5e0!3m2!1sen!2sbd!4v1694507497294"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <h3>Wikipedia Snippet</h3>
+    <iframe src="https://en.wikipedia.org/wiki/Nature"></iframe>
+  </section>
+
+  <!-- Back to Top -->
+  <div class="back-to-top">
+    <a href="#top">Back to Top</a>
+  </div>
+
+</body>
+</html>

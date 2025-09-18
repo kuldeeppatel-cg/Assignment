@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML News Reader</title>
+    <style>
+        li{
+            margin: 5px auto;
+        }
+        iframe{
+            border: 1px solid;
+            border-radius: 10px;
+            margin: 10px;
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Daily News Portal</h1>
+    <nav>
+      <ul>
+        <a href="#national"> <li>[National News]</li></a>
+        <a href="#sport"><li>[Sports News]</li></a>
+        <a href="#enter"><li>[Entertainment News]</li></a>
+        <a href="#tech"><li>[Technology News]</li></a>
+      </ul>
+    </nav>
+    <hr>
+    <iframe src="tech.html" frameborder="0" id="tech" "></iframe>
+    <iframe src="sport.html" frameborder="0" id="sport"></iframe>
+    <iframe src="entertainment.html" frameborder="0" id="enter"></iframe>
+    <iframe src="national.html" frameborder="0" id="national"></iframe>
+</body>
+</html>

@@ -1,0 +1,22 @@
+p{
+    font-size: 20px;
+    line-height: 20px;
+}
+#site-title{
+    background-color: rgb(131, 88, 88);
+    color: aqua;
+    padding: 10px;
+}
+.muted{
+    color: gray;
+}
+.highlight{
+    background-color: aqua;
+    border: 1px solid;
+}
+.highlight-text{
+    background-color: lightblue;
+}
+#override:override .highlight-text{
+    background-color: yellow;
+}
